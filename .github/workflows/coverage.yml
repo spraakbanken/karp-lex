@@ -39,7 +39,7 @@ jobs:
         run: make dev
 
       - name: Run all tests for coverage report
-        run: make all-tests-w-coverage
+        run: make run-all-tests-w-coverage
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
