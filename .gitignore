@@ -130,3 +130,4 @@ dmypy.json
 
 # PDM config
 .pdm.toml
+pdm.lock
