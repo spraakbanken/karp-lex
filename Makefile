@@ -48,7 +48,7 @@ run-all-tests:
 
 .PHONY: run-doc-tests
 run-doc-tests:
-	${INVENV} python -m doctest -v karp_lex
+	${INVENV} python -m doctest -v karp_lex/value_objects/unique_id.py
 
 .PHONY: run-all-tests-w-coverage
 run-all-tests-w-coverage:
