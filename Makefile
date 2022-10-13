@@ -44,7 +44,7 @@ install-dev:
 test: run-all-tests
 .PHONY: run-all-tests
 run-all-tests:
-	${INVENV} pytest -vv tests
+	${INVENV} pytest -vv ${PROJECT}/tests
 
 .PHONY: run-doc-tests
 run-doc-tests:
@@ -56,7 +56,7 @@ run-all-tests-w-coverage:
 
 .PHONY: type-check
 type-check:
-	${INVENV} mypy --cov=${PROJECT}
+	${INVENV} mypy ${PROJECT}
 
 .PHONY: lint
 lint:
